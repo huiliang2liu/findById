@@ -5,7 +5,7 @@ import com.intellij.openapi.ui.Messages;
 
 import javax.swing.*;
 
-public class MessgeUtil {
+public class MessageUtil {
     private static final Icon ICON =null;
 
     public static String showInputDialog(Project project, String message, String title) {
