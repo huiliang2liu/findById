@@ -1,4 +1,4 @@
-package com.xh.Utils;
+package com.xh.utils;
 import java.util.Locale;
 
 public class StringUtils {
