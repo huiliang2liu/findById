@@ -9,7 +9,7 @@ import com.intellij.openapi.project.Project;
 import com.intellij.psi.*;
 import com.intellij.psi.util.PsiTreeUtil;
 
-public class ActitonParas {
+public class ActionParas {
     public Project mProject;//当前工程对象
     public Editor mEditor;//当前编辑器对象
     public PsiFile mFile;//当前操作文件
@@ -17,7 +17,7 @@ public class ActitonParas {
     public String text;//当前选中的内容
     public PsiElementFactory mFactory;//文件编辑工厂
 
-    ActitonParas(AnActionEvent event) {
+    ActionParas(AnActionEvent event) {
         mProject = event.getData(PlatformDataKeys.PROJECT);
         mEditor = event.getData(PlatformDataKeys.EDITOR);
         mFile = event.getData(PlatformDataKeys.PSI_FILE);
